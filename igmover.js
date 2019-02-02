@@ -26,7 +26,7 @@ function n(e){
 	}
 }
 
-var e=document.location.href;
+var e = document.location.href;
 if(e.match(/google.*\/maps/)){
 	location.href = n(e);
 }else if(e.match('ingress.com/intel')){
