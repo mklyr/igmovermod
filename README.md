@@ -1,5 +1,5 @@
 # igmovermod
-詠み人知らずのIntelMap⇔Google Maps相互移動ブックマークレットの自家Modify版。
+詠み人知らずのIntelMap⇔Google Maps相互移動ブックマークレットの自家改良版(Minify前ソース)。
 怒られたら削除します。
 
 元ソース(改変元):
