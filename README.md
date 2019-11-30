@@ -3,7 +3,7 @@
 怒られたら削除します。
 
 ブックマークレットとしての配布先：
-https://mkly.shirosaki.net/intel-google-mover/
+https://penguin.camp/intel-google-mover/
 
 改変元:
 https://dl.dropboxusercontent.com/s/3h2uaaxf18b5li7/IntelMap_Bookmarklet.html
