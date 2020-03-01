@@ -2,7 +2,7 @@ javascript:(
 function(){
 
 function t(e){
-	var t='http://google.co.jp/maps/@';
+	var t='https://google.co.jp/maps/@';
 	var n=e.split('; ');
 	for(i=0;i<n.length;i++){
 		if(n[i].match(/ingress\.intelmap\.(lat|lng)=(-?[0-9]+\.[0-9]+)/)){
@@ -20,7 +20,7 @@ function t(e){
 }
 
 function n(e){
-	var t = 'http://intel.ingress.com/intel?ll=';
+	var t = 'https://intel.ingress.com/intel?ll=';
 	if(e.match(/@(-?[0-9]+\.[0-9]+),(-?[0-9]+\.[0-9]+),([0-9]+\.*[0-9]*)z/)){
 		return t += RegExp.$1 + ',' + RegExp.$2 + '&z=' + Math.round(RegExp.$3);
 	}
