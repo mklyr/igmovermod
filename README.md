@@ -5,9 +5,9 @@
 改変元:
 https://dl.dropboxusercontent.com/s/3h2uaaxf18b5li7/IntelMap_Bookmarklet.html
 
-# 変更点
+## 変更点
 1. Google Mapsのズームレベルに小数点以下の数字が存在する場合でも、IntelMapへ遷移できるようにした。
 2. 南緯/西経への相互対応。
 
-ブックマークレットとしての配布先：
+ブックマークレットとしての配布先:
 https://penguin.camp/intel-google-mover/
