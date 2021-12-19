@@ -20,7 +20,7 @@ function t(e){
 }
 
 function n(e){
-	var t = 'https://intel.ingress.com/intel?ll=';
+	var t = 'https://intel.ingress.com/?ll=';
 	if(e.match(/@(-?[0-9]+\.[0-9]+),(-?[0-9]+\.[0-9]+),([0-9]+\.*[0-9]*)z/)){
 		return t += RegExp.$1 + ',' + RegExp.$2 + '&z=' + Math.round(RegExp.$3);
 	}
