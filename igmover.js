@@ -1,11 +1,11 @@
 javascript:(function(){
     function meterToZoom(m){
-        var z = Math.log2(156543.03392 / m) + 8;
+        var z = Math.log2(156543.03392 / m) + 9;
         return Math.max(0, Math.min(21, Math.round(z)));
     }
 
     function toIntel() {
-        var m = location.href.match(/@(-?\d+\.?\d*),(-?\d+\.?\d*),(?:(\d+\.?\d*)z|(\d+)m)/);
+        var m = location.href.match(/@(-?\d+\.?\d*),(-?\d+\.?\d*),(?:(\d+\.?\d*)z|(\d+\.?\d*)m)/);
         if (m) {
             var lat = m[1];
             var lng = m[2];
